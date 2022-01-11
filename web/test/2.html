@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--更简单的 doctype 是 HTML5 中众多新特征之一。在 HTML5 中，头部只需要写<!DOCTYPE html>即可。
+HTML5 的语法兼容 HTML4 和 XHTML1，但不兼容 SGML。-->
+<html lang="en">
+<head>
+    <!--<meta http-equiv="content-type" content="text/html"; charset="UTF-8">-->
+    <meta charset="UTF-8">
+    <title>DIV+CSS布局</title>
+    <!--HTML5,新增加的语义化标签（如<header>、<footer>、<section>等）使得网页的可读性变得更
+高，也更加明确地表示出网页的结构，对于搜索引擎优化（SEO）有很大帮助-->
+    <style>
+        #header{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            }
+        #nav{
+            line-height: 30px;
+            background-color: #eeeeee;
+            height: 300px;
+            width: 100px;
+            float: left;
+            padding: 10px;
+        }
+        #section{
+            width: 500px;
+            float: left;
+            padding: 15px;
+        }
+        #footer{
+            background-color: black;
+            color: white;
+            clear: both;
+            text-align:center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>物联网智慧家居系统</h1>
+    </div>
+    <div id="nav">HTML<br>CSS<br>JavaScript<br> </div>
+    <div id="section">
+        <h2>HTML</h2>
+        <p>这是个什么玩意儿</p>
+        <p>随意放飞自我</p>
+        <h3>HTML5 废除了一些标签，其中大部分为网页美化标签，如center、font、tt、big、dir、marquee、frame等</h3>
+
+
+    </div>
+    <div id="footer">Author:小贾 联系方式：你想得到美</div>
+</body>
+</html>
